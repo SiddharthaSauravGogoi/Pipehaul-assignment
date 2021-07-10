@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import deleteIcon from "../assets/trashcan.png";
 
 export default function Todos(props) {
@@ -19,3 +20,7 @@ export default function Todos(props) {
     </div>
   );
 }
+
+Todos.propTypes = {
+  props: PropTypes.object,
+};

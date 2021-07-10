@@ -1,8 +1,7 @@
 import React, { useState, useRef } from "react";
 import Rodal from "rodal";
-
-// include styles
 import "rodal/lib/rodal.css";
+import PropTypes from "prop-types";
 
 export default function AddTodoModal({ addTodo }) {
   const [visible, setVisible] = useState(false);
@@ -54,3 +53,7 @@ export default function AddTodoModal({ addTodo }) {
     </div>
   );
 }
+
+AddTodoModal.propTypes = {
+  addTodo: PropTypes.func,
+};
