@@ -1,0 +1,35 @@
+p,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.todo {
+  border: 1px solid gray;
+  padding: 1rem 3rem;
+  margin: 0.5rem;
+}
+
+.todo-delete {
+  cursor: pointer;
+}
