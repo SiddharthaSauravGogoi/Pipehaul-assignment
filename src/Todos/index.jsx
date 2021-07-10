@@ -6,7 +6,7 @@ export default function Todos(props) {
     <div className="todo d-flex align-center space-between">
       <div className="todo-data-wrapper">
         <p> {props.todo.title}</p>
-        <h6> {props.todo.date}</h6>
+        <h6> {props.todo.day}</h6>
       </div>
       <div className="todo-delete">
         <img

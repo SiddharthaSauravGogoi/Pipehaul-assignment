@@ -2,22 +2,22 @@ const data = [
   {
     id: 1,
     title: 'Clean Room',
-    date: 'Tuesday'
+    day: 'Tuesday'
   },
   {
     id: 2,
     title: 'Learn Guitar',
-    date: 'Wednesday'
+    day: 'Wednesday'
   },
   {
     id: 3,
     title: 'Buy Groceries',
-    date: 'Monday'
+    day: 'Monday'
   },
   {
     id: 4,
     title: 'Feed the cat',
-    date: 'Everyday'
+    day: 'Everyday'
   },
 ]
 
